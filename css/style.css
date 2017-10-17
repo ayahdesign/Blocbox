@@ -67,6 +67,17 @@ html, body {
    .container {
      width: 1170px;
    }
+ 
+  @media (min-width: 1024px) {
+   .container {
+     width: 1170px;
+
+ }
+
+  @media (min-width: 1280px) {
+   .container {
+     width: 1024px;
+
  }
 
   /* HEADER */
@@ -112,15 +123,15 @@ header nav ul > li > a {
   position: relative;
  }
   header .hero h1 {
-  font-size:48px;
+  font-size:68px;
   font-weight: normal;
   margin:95px 0 0;
  }
   header .hero p {
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 42px;
+  line-height: 46px;
   font-weight: 100;
-  margin:10px 0 40px;
+  margin:20px 0 60px;
  }
   header .hero img {
   display: block;
