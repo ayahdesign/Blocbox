@@ -9,7 +9,7 @@ html, body {
     font-family: "Varela Round", Helvetica, Arial, sans-serif
   }
   h2 {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: normal;
     margin-bottom: 5px
   }
@@ -72,17 +72,22 @@ html, body {
      width: 1170px;
    }
  
-  @media (min-width: 1024px) {
-   .container {
-     width: 1170px;
+ @media screen and (max-width:991px){
+    #container{
+      width:100%;
+    }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
 
- }
+}
 
-  @media (min-width: 1280px) {
-   .container {
-     width: 1024px;
-
- }
 
   /* HEADER */
   header {
@@ -128,13 +133,13 @@ header nav ul > li > a {
   position: relative;
  }
   header .hero h1 {
-  font-size:68px;
+  font-size:48px;
   font-weight: normal;
   margin:95px 0 0;
  }
   header .hero p {
-  font-size: 42px;
-  line-height: 46px;
+  font-size: 32px;
+  line-height: 38px;
   font-weight: 100;
   margin:20px 0 60px;
  }
